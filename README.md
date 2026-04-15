@@ -64,6 +64,7 @@ You can configure the agent's name, model, and prompts in their profile like `an
 | `xai` | `XAI_API_KEY` | [docs](https://docs.x.ai/docs) |
 | `deepseek` | `DEEPSEEK_API_KEY` | [docs](https://api-docs.deepseek.com/) |
 | `ollama` (local) | n/a | [docs](https://ollama.com/library) |
+| `openclaw` (local OpenAI-compatible) | optional `OPENCLAW_API_KEY` or `OPENAI_API_KEY` | local OpenAI-compatible endpoint |
 | `qwen` | `QWEN_API_KEY` | [Intl.](https://www.alibabacloud.com/help/en/model-studio/developer-reference/use-qwen-by-calling-api)/[cn](https://help.aliyun.com/zh/model-studio/getting-started/models) |
 | `mistral` | `MISTRAL_API_KEY` | [docs](https://docs.mistral.ai/getting-started/models/models_overview/) |
 | `replicate` | `REPLICATE_API_KEY` | [docs](https://replicate.com/collections/language-models) |
