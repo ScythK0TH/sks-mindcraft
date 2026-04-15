@@ -220,9 +220,8 @@ export function createMindServer(host_public = false, port = 8080) {
     if (host_public) {
         console.log('Public hosting not supported yet. Using localhost.');
     }
-    const host = 'localhost';
-    server.listen(port, host, () => {
-        console.log(`MindServer running on port ${port} on host ${host}`);
+    server.listen(port, () => {
+        console.log(`MindServer running on port ${port}`);
     });
 
     return server;
