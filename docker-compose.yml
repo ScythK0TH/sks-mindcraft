@@ -10,6 +10,7 @@ services:
       - ./profiles:/app/profiles
       - ./bots:/app/bots
       - ./src/agent:/app/src/agent
+      - ./src/models:/app/src/models
     ports:
       - "3000-3003:3000-3003" # see the view from the camera mounted on your bot head: http://localhost:3000/
       - 8080 # Mindserver port
