@@ -13,8 +13,6 @@ export class OpenClaw {
         let apiKey = null;
         if (hasKey('OPENCLAW_API_KEY')) {
             apiKey = getKey('OPENCLAW_API_KEY');
-        } else if (hasKey('OPENAI_API_KEY')) {
-            apiKey = getKey('OPENAI_API_KEY');
         }
 
         if (apiKey) {

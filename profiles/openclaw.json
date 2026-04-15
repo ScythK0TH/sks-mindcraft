@@ -3,6 +3,6 @@
 
     "model": {
         "url": "http://setup-openclaw-gateway-1:18789/v1",
-        "model": "openclaw/default"
+        "model": "openclaw/openclaw/default"
     }
 }
