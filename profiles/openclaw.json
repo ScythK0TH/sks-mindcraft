@@ -1,0 +1,9 @@
+{
+    "name": "Zyrox",
+
+    "model": {
+        "api": "placeholder",
+        "url": "http://setup-openclaw-gateway-1:18789/v1",
+        "model": "openclaw/default"
+    }
+}
