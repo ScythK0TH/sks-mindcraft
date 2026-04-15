@@ -3,7 +3,11 @@ services:
     build: .
     environment:
       SETTINGS_JSON: |
-        {"auto_open_ui": false}
+        {
+          "auto_open_ui": false,
+          "host": "host.docker.internal",
+          "port": 25565
+        }
     volumes:
       - ./settings.js:/app/settings.js
       - ./keys.json:/app/keys.json
@@ -13,7 +17,7 @@ services:
       - ./src/models:/app/src/models
     ports:
       - "3000-3003:3000-3003" # see the view from the camera mounted on your bot head: http://localhost:3000/
-      - 8080 # Mindserver port
+      - "8080:8080" # Mindserver port
     extra_hosts:
     - "host.docker.internal:host-gateway"
 
