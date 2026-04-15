@@ -4,10 +4,5 @@
     "model": {
         "url": "https://ai-gateway.vercel.sh/v1",
         "model": "vercel-ai-gateway/deepseek/deepseek-v3.2"
-    },
-
-    "embedding": {
-        "url": "https://ai-gateway.vercel.sh/v1",
-        "model": "vercel-ai-gateway/openai/text-embedding-3-small"
     }
 }
