@@ -1,0 +1,8 @@
+{
+    "name": "Vercel",
+
+    "model": {
+        "url": "https://ai-gateway.vercel.sh/v1",
+        "model": "vercel-ai-gateway/deepseek/deepseek-v3.2"
+    }
+}
