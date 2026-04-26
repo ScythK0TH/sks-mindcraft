@@ -15,8 +15,6 @@ export class NvidiaNIM {
             apiKey = getKey('NVIDIA_NIM_API_KEY');
         } else if (hasKey('NVIDIA_API_KEY')) {
             apiKey = getKey('NVIDIA_API_KEY');
-        } else if (hasKey('VERCEL_AI_GATEWAY_API_KEY')) {
-            apiKey = getKey('VERCEL_AI_GATEWAY_API_KEY');
         }
 
         if (apiKey) {
