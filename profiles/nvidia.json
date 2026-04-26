@@ -1,0 +1,8 @@
+{
+    "name": "Nvidia",
+
+    "model": {
+        "url": "https://integrate.api.nvidia.com/v1",
+        "model": "nvidia/deepseek-ai/deepseek-v4-flash"
+    }
+}
