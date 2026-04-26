@@ -4,5 +4,7 @@
     "model": {
         "url": "https://ai-gateway.vercel.sh/v1",
         "model": "vercel-ai-gateway/deepseek/deepseek-v4-flash"
-    }
+    },
+
+    "cooldown": 2000
 }
