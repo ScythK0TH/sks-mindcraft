@@ -1,0 +1,7 @@
+{
+    "name": "Zyrox",
+
+    "model": {
+        "model": "openrouter/deepseek/deepseek-v4-flash"
+    }
+}

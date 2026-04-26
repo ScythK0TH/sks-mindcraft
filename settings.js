@@ -12,8 +12,9 @@ const settings = {
     "profiles": [
         // "./andy.json",
         //"./profiles/openclaw.json",
-        //"./profiles/nvidia.json",\
-        "./profiles/vercel.json"
+        //"./profiles/nvidia.json",
+        //"./profiles/vercel.json",
+        "./profiles/openrouter.json",
         // "./profiles/gpt.json",
         // "./profiles/claude.json",
         // "./profiles/gemini.json",
